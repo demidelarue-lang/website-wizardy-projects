@@ -3,13 +3,14 @@
 }
 body{
     text-align:center;
-    background: #000;
+    background: #82c7ff;
     color:#fff;
 
 }
+
 header div{
     background:#fff;
-    width:100%;
+    width:50%;
     color:#1B5E20;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -20,7 +21,7 @@ main{
 
 main div{
     width:95%;
-    height:400px;
+    height:40rem;
     border: groove 5px white;
     margin-bottom:5px;
 }
@@ -32,19 +33,38 @@ div{
 
 .imgSlider{
     width:30%;
-    height:150px;
-    box-shadow:2px 2px 5px grey;
-    border-radius:2px;
+    height:200px;
+    box-shadow:2px 2px 5px;
+    border:5px;
+    border-color:#970071;
     margin: left 10px;
     cursor:pointer;
 }
 
 #imgMain{
     width:100%;
-    height: 400px;
+    height: 40rem;
 }
 
 span{
-    color: #00B8D4;
+    color: #ffec41;
+}
 
+h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    letter-spacing:2px;
+    color: #1B5E20;
+    text-shadow: 0 2px  8px;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #071b29; 
+    margin-top: 12px; 
+}
+
+footer p{
+    color:#071b29;
 }
